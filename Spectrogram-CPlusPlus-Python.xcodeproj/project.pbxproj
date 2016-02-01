@@ -17,6 +17,7 @@
 		276BED871C5FEC6E00377062 /* libfftw3l.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 276BED811C5FEC6E00377062 /* libfftw3l.3.dylib */; };
 		276BED891C5FEC8100377062 /* libsndfile.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 276BED881C5FEC8100377062 /* libsndfile.1.dylib */; };
 		276BED8E1C5FECF400377062 /* Spectrogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 276BED8B1C5FECF400377062 /* Spectrogram.cpp */; };
+		276BED921C5FFE0B00377062 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 276BED911C5FFE0B00377062 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		276BED8B1C5FECF400377062 /* Spectrogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Spectrogram.cpp; sourceTree = "<group>"; };
 		276BED8C1C5FECF400377062 /* plotPy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = plotPy.py; sourceTree = "<group>"; };
 		276BED8D1C5FECF400377062 /* dtmf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf.wav; sourceTree = "<group>"; };
+		276BED911C5FFE0B00377062 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		276BED721C5FEBE300377062 /* Spectrogram-CPlusPlus-Python */ = {
 			isa = PBXGroup;
 			children = (
+				276BED911C5FFE0B00377062 /* README.md */,
 				276BED8A1C5FECF400377062 /* Spectrogram.h */,
 				276BED8B1C5FECF400377062 /* Spectrogram.cpp */,
 				276BED8C1C5FECF400377062 /* plotPy.py */,
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276BED921C5FFE0B00377062 /* README.md in Sources */,
 				276BED741C5FEBE300377062 /* main.cpp in Sources */,
 				276BED8E1C5FECF400377062 /* Spectrogram.cpp in Sources */,
 			);

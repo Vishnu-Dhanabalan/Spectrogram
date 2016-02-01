@@ -1,3 +1,22 @@
+////////////////////////////////////////////////////
+//  Project: Spectrogram in C++ and Python.
+//  File: main.cpp
+//  Version: 1.0
+//
+//  Author: Vishnu Dhanabalan.
+//  Contact: vishnudhanabalan@outlook.com
+////////////////////////////////////////////////////
+
+/*
+ main.cpp -- main file for spectrogram project.
+ 
+ Info:
+ Uses spectrogram class for creating spectrogram for audio files.
+ 
+ Version history:
+ v1.0  -- Created main.cpp with comments.
+ */
+
 #include <iostream>
 
 #include "Spectrogram.h"

@@ -1,3 +1,22 @@
+////////////////////////////////////////////////////
+//  Project: Spectrogram in C++ and Python.
+//  File: spectrogram.cpp
+//  Version: 1.0
+//
+//  Author: Vishnu Dhanabalan.
+//  Contact: vishnudhanabalan@outlook.com
+////////////////////////////////////////////////////
+
+/*
+ Spectrogram.cpp -- Implementation file for spectrogram class definitions.
+ 
+ Info:
+ Contains class definitions for spectrogram class.
+ 
+ Version history:
+ v1.0  -- Created spectrogram.cpp with comments.
+ */
+
 #include <iostream>
 #include <cmath>
 #include <Python/python.h>

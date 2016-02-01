@@ -1,3 +1,16 @@
+#######################################################
+#   Project: Spectrogram in C++ and Python.
+#   File: plotPy.py
+#   Version: 1.0
+#
+#   Author: Vishnu Dhanabalan.
+#   Contact: vishnudhanabalan@outlook.com
+#######################################################
+
+# plotPy.py -- Contains plotting implementation for spectrogram project.
+# Uses numpy and matplotlib for reading text file as ndarrays and plotting respectively.
+
+
 import os
 import numpy as np
 from matplotlib import pyplot as plt

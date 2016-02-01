@@ -1,37 +1,23 @@
 #ifndef SPECTROGRAM_H_
 #define SPECTROGRAM_H_
 ////////////////////////////////////////////////////
-//  Spectrogram in C++ and Python.                //
-//  Version: 1.0                                  //
-//                                                //
-//  Author: Vishnu Dhanabalan.                    //
-//  Contact: vishnudhanabalan@outlook.com         //
+//  Project: Spectrogram in C++ and Python.
+//  File: spectrogram.h
+//  Version: 1.0
+//
+//  Author: Vishnu Dhanabalan.
+//  Contact: vishnudhanabalan@outlook.com
 ////////////////////////////////////////////////////
+
 /*
- Spectrogram using C++ and Python. 
+ Spectrogram.h -- Header file for spectrogram class declration.
  
- This spectrogram is designed using C++ for computing STFT and power and using Python 
- for plotting the data. 
- 
- Libraries used:
- ---------------
- 
- C++:
- libsndfile -- For reading wav files.
- FFTW -- For computing STFT. 
- 
- Python:
- matplotlib -- For plotting.
- numpy -- For reading spectrogram data from text file as ndarray.
+ Info: 
+ Contains class declration for spectrogram.
  
  Version history:
- ----------------
- 
- v1.0 -- Created Spectrogram with C++ and Python. This project uses C++ for computing STFT and 
-         uses Python script for Plotting. Using C-Python API, C++ code calls Python script for 
-         plotting.
- */
-
+ v1.0  -- Created spectrogram.h
+*/
 
 #include <iostream>
 #include <fftw3.h>
