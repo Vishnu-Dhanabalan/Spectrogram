@@ -266,9 +266,10 @@ void spectrogram::pythonSetup(){
     Py_Initialize();
     PyRun_SimpleString("import sys");
     
-    std::string sysAppend = "sys.path.append(\'"+this->currPath+"')";
-    /** Hard coded the path here. The above string sysAppend should be passed into PyRun_SimpleString as an argument
-        but it is not working. Please change this path to this->currPath.
+//    std::string sysAppend = "sys.path.append(\'"+this->currPath+"')";
+    /** The above commented, 'sysAppend' variable should be passed into PyRun_SimpleString as an argument
+        but I've got no clue why it's not working. Please change this path to this->currPath. If you can't
+        make it work, please hard code your path (where your python file is available) like below. 
      **/
     PyRun_SimpleString("sys.path.append(\'/Users/Vishnu/Google Drive/programming tutorials/c++ practice/XCode projects/Spec_CPP_Python_Hybrid/Spec_CPP_Python_Hybrid/\')");
 
