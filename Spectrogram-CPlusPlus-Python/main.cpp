@@ -8,8 +8,6 @@ int main(){
     // Curr path should end with '/'
     string currPath = "/Users/Vishnu/Google Drive/programming tutorials/c++ practice/XCode projects/Spec_CPP_Python_Hybrid/Spec_CPP_Python_Hybrid/";
     
-    
-    
     // audio file name must contain file extension.
     string audioFilename = "dtmf.wav";
     
