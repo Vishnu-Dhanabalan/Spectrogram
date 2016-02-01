@@ -14,13 +14,22 @@
  for plotting the data. 
  
  Libraries used:
+ ---------------
+ 
  C++:
  libsndfile -- For reading wav files.
  FFTW -- For computing STFT. 
  
  Python:
  matplotlib -- For plotting.
- numpy -- For reading spectrogram data as ndarray.
+ numpy -- For reading spectrogram data from text file as ndarray.
+ 
+ Version history:
+ ----------------
+ 
+ v1.0 -- Created Spectrogram with C++ and Python. This project uses C++ for computing STFT and 
+         uses Python script for Plotting. Using C-Python API, C++ code calls Python script for 
+         plotting.
  */
 
 
@@ -92,4 +101,4 @@ public:
     void plot();
 };
 
-#endif /* Spectrogram_hpp */
+#endif /* SPECTROGRAM_H_ */
