@@ -1,17 +1,11 @@
-*** Create Spectrogram of audio samples using C++ and Python ***
+## Create Spectrogram of audio samples using C++ and Python
 
 This spectrogram is designed using C++ for computing STFT and power and using Python 
 for plotting the data. 
 
-
-*** COMPATIBILITY WARNING *** 
-
 I created this project using XCode. If you do not have XCode, please go to the project folder
 to find source files. You must include library files for FFTW, libsndfile, Python framework on 
 your own.
-
-
-*** STEPS TO CREATE SPECTROGRAM ***
 
 Step 1:
 In the main file, change the path and file name. Only .wav files are supported with libsndfile. 
@@ -26,27 +20,22 @@ Read the comment about the Python file path.
 Step 4:
 Hit run.
 
-
-*** Libraries used ***
+### Libraries used
 
 C++:
-libsndfile -- For reading wav files.
-FFTW -- For computing STFT. 
+libsndfile - For reading wav files.
+FFTW - For computing STFT.
 
 Python:
-matplotlib -- For plotting.
-numpy -- For reading spectrogram data from text file as ndarray.
+matplotlib - For plotting.
+numpy - For reading spectrogram data from text file as ndarray.
 
-*** Version history ***
+### Version history
 
-
-v1.0 -- Created Spectrogram with C++ and Python. This project uses C++ for computing STFT and 
+v1.0 - Created Spectrogram with C++ and Python. This project uses C++ for computing STFT and 
 uses Python script for Plotting. Using C-Python API, C++ code calls Python script for 
 plotting.
 
+### In future...
 
-*** Possible future changes ***
-
-Python script reads the output text file which is created by C++ side, to get spectrogram output. I will try to 
-pass it directly into Python script which possibly will boost up some speed. 
-
+Improving Python and C++ integration in such a way that Python module does not need to read the spectrogram output from the disk, instead convert the C++ vector into Python NumPy ndarrays.
